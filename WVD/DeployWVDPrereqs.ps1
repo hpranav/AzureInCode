@@ -23,7 +23,7 @@ $VNET = New-AzVirtualNetwork -Name $VNETName -ResourceGroupName $RGName -Locatio
 
 # Create the VM
 $VMLocalAdminUser = "msadmin"
-$VMLocalAdminSecurePassword = ConvertTo-SecureString "P@ssw0rdda75B" -AsPlainText -Force
+$VMLocalAdminSecurePassword = ConvertTo-SecureString "P@ssw0rdda" -AsPlainText -Force
 $ComputerName = "M365x940938-DC1"
 $VMName = "M365x940938-DC1"
 $VMSize = "Standard_D4as_v4"
