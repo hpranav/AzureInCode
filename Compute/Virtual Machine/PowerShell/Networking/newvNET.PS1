@@ -1,6 +1,6 @@
 # Set variables 
-$AADTenant="72f988bf-86f1-41af-91ab-2d7cd011db47"
-$SubID="357ff2c9-cb3d-41f5-a7f1-de3764b3b8c5"
+$AADTenant="72f900bf-00f1-00af-00ab-2d7cd011db47"
+$SubID="357ff2c0-ba0d-01a0-a0f0-de0000b3b8c5"
 
 $RGName="FirewallTesting-RG1"
 $ResourceLoc="Australia East"
