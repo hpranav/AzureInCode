@@ -49,7 +49,6 @@ Add-AzRouteConfig -Name "DG-Route" -RouteTable $routeTableDG -AddressPrefix 0.0.
 Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $VNET -Name servicesSubnet -AddressPrefix 192.168.0.0/23 -RouteTable $routeTableDG | Set-AzVirtualNetwork
 
 
-
 # Create the function
 # Your Code 
 
